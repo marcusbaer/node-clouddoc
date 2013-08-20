@@ -1,0 +1,32 @@
+﻿{
+	"name": "clouddoc",
+	"version": "0.0.1",
+	"description": "Handle markdown documents with browser, app or sms. A test case.",
+	"homepage": "http://github.com/marcusbaer/clouddoc",
+    "keywords": ["markdown"],
+	"author": "Marcus Baer <info@baer-media.com>",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/marcusbaer/clouddoc.git"
+	},
+	"bugs": {
+		"url": "https://github.com/marcusbaer/clouddoc/issues"
+	},
+	"licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/marcusbaer/clouddoc/blob/master/LICENSE"
+        }
+    ],
+	"engines" : {
+		"node": ">=0.10",
+		"npm": ">=1.2.14"
+	},
+	"dependencies": {
+		"earlybird": ">=0.1.6"
+	},
+	"bin": {
+		"clouddoc": "./bin/clouddoc"
+	},
+	"main": "./clouddoc.js"
+}
